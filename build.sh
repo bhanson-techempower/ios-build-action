@@ -2,7 +2,7 @@
 
 if ! type fastlane > /dev/null 2>&1; then
   if type brew > /dev/null 2>&1; then
-    brew install fastlane
+    arch -arm64 brew install fastlane
   else
     sudo gem install fastlane -NV
   fi
